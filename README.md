@@ -1,16 +1,67 @@
-# React + Vite
+# Task Manager Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full stack task management application developed using React.js, .NET Core Web API, SQL Server, and Tailwind CSS. The application is designed to help users efficiently manage daily tasks with a clean, responsive, and user-friendly interface.
+---
+## Features
+- User Authentication & Authorization
+- Create, Update, and Delete Tasks
+- Task Status Management
+- Responsive User Interface
+- Dark and Light Mode Support
+- REST API Integration
+- Structured and Reusable Component Architecture
+---
+## Technology Stack
+### Frontend
+- React.js
+- Tailwind CSS
+- Axios
+- React Router DOM
+- Vite
+### Backend
+- .NET Core Web API
+- Entity Framework Core
+- SQL Server
+---
+## Project Structure
+```bash
+Frontend/
+Backend/
+```
+## Installation and Setup
 
-Currently, two official plugins are available:
+### Clone the Repository
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+```bash
+git clone https://github.com/shahinashamsher11-ai/task-manager-app.git
+```
 
-## React Compiler
+### Frontend Setup
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+cd task-manager-ui
+npm install
+npm run dev
+```
+### Backend Setup
+```bash
+cd backend
+dotnet restore
+dotnet run
+---
+## Deployment Status
 
-## Expanding the ESLint configuration
+- Frontend: Not Deployed
+- Backend: Running Locally
+---
+## APK Build
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+An Android APK build of the application is also available for testing purposes.
+
+### Download APK
+Add APK link here
+## Author
+
+Shahina Shamsher
+
+Aspiring Full Stack Developer with a strong interest in building scalable and modern web applications using React.js and .NET technologies.
