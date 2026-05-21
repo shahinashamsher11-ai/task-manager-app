@@ -59,7 +59,8 @@ dotnet run
 An Android APK build of the application is also available for testing purposes.
 
 ### Download APK
-app-debug-androidTest.apk
+[app-debug-androidTest.apk](https://github.com/shahinashamsher11-ai/task-manager-app/raw/main/assets/apk/task-manager.apk)
+
 ## Author
 
 Shahina Shamsher
