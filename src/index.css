@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+.btn-yellow {
+    @apply bg-amber-950 rounded-2xl shadow-md hover:bg-amber-950 text-cyan-700 mr-2 mt-2 px-3 py-3 cursor-pointer block active:bg-amber-700 sm:bg-amber-500
+}
+
+.btn-blue {
+    @apply w-full bg-blue-700 rounded-2xl shadow-md hover:bg-blue-950 text-blue-50 mr-2 mt-2 px-3 py-2 cursor-pointer block active:bg-blue-900
+}
+
+.btn-pink {
+    @apply bg-pink-600 rounded-2xl shadow-md hover:bg-pink-900 text-blue-50 mr-2 mt-2 px-3 py-3 cursor-pointer block active:bg-pink-800
+}
+
+.btn-green {
+    @apply bg-green-600 rounded-md shadow-md hover:bg-green-700 text-blue-50 mr-2 mt-2 px-3 py-2 cursor-pointer block active:bg-green-900
+}
+
+.link {
+    @apply hover:bg-pink-800 rounded-sm active:bg-pink-950
+}
+
+.btn-cyan {
+    @apply  bg-blue-300 rounded-xl hover:bg-blue-400 text-blue-700 mr-2 mt-2 px-3 py-2 cursor-pointer block
+}
+
+.input-default {
+    @apply bg-amber-50 outline-none border border-gray-400 px-2 py-1 rounded-2xl hover:shadow-2xl mr-2 mt-2
+}
+.btn-red{
+ @apply  bg-red-700 rounded-md shadow-md hover:bg-red-800 text-white mr-2 mt-2 px-3 py-2 cursor-pointer block active:bg-red-900
+}
+.btn-disabled {
+    @apply w-full outline-none border bg-gray-400 text-white px-3 py-2 rounded-2xl cursor-not-allowed
+}
+.btn-white{
+   @apply w-full bg-gray-300 rounded-2xl shadow-md hover:bg-gray-200 text-black mr-2 mt-2 px-3 py-3 cursor-pointer block active:bg-gray-400
+}
+
+@keyframes popup {
+  0% {
+    opacity: 0;
+    transform: scale(0.85) translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
