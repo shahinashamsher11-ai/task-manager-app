@@ -59,7 +59,7 @@ dotnet run
 An Android APK build of the application is also available for testing purposes.
 
 ### Download APK
-Add APK link here
+app-debug-androidTest.apk
 ## Author
 
 Shahina Shamsher
